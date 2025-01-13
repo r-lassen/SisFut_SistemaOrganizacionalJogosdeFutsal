@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+boby{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+}
+
+.conteiner {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 16px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+header .conteiner {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    height: 100%;
+}
+
+header .logo {
+    display: inline-block;
+    align-items: center;
+    font-size: 40px;
+}
+
+header .logo .dot {
+    background-color:aqua;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+   
+}
+
+.logoecadastro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 440px;
+    border-radius: 20px;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoecadastro .login {
+    width: 100%;
+    padding: 40px;
+}
+
+.login h2{
+    font-size: 40px;
+    color:aqua;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid rgba(255,255,255,.2);
+    margin: 30px 0;;
+}
+
+.input-box input{
+    width: 90%;
+    height: 40px;
+   
+    align-items: center;
+    font-size: 14px;
+    border-radius: 200px;
+    color:  rgba(255,255,255,.2);
+    padding: 0 35px 0 5px;
+
+}
+
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 20px;
+    line-height: 57px;
+    
+}
+
+.remenber {
+    font-size: 10px;
+    color: gray;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.remenber label{
+    margin-left: 5px;
+    padding-left: 5px;
+    
+}
+
+.remenber a{
+    font-size: 10px;
+    color: gray;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+button{
+    height: 30px;
+    width: 90%;
+    border-radius: 200px;
+    color: aqua;
+    border: 1px solid aqua;
+    text-transform: uppercase;
+    background-color: #fff;
+    margin-top: 10px;
+    
+}
+
+.acessar{
+    background-color: aqua;
+    color: #fff;
+}
+
+
+
+
+
+
+
+footer{
+    text-align: center;
+    
+}
+
+footer .rodape{
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+
+    color: #3e3e3e;
+    width: 100%;
+    height: 70px;    
+    text-align: center;
+    line-height: 70px;
+    
+}
+ .rodape .dot {
+    background-color:aqua;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+   
+}
