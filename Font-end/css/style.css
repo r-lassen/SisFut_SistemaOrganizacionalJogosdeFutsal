@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    
     box-sizing: border-box;
 }
 
@@ -9,6 +10,7 @@ boby{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    
     
 }
 
@@ -67,10 +69,15 @@ header .logo .dot {
     height: 440px;
     border-radius: 20px;
     box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: center;
+}
+
+.cadastro{
+    background-color: #fff;
 }
 
 .logoecadastro.active {
@@ -80,27 +87,29 @@ header .logo .dot {
 .logoecadastro .form-login {
     width: 100%;
     padding: 40px;
-}
-
-.logoecadastro .form-login {
-    transition: .7s ease-in-out;
+    transition: .1s ease-in-out;
+    
 }
 
 .logoecadastro.active .form-login {
     transition-delay: 0s;
     transform: trabslateX(-400px);
+    
 }
+
 
 .logoecadastro .cadastro{
     position: absolute;
     margin-top: 15px;
     transform: translateX(-400px);
-    transition: .7s ease-in-out;
+    transition: .1s ease-in-out;
+    display: none;
 }
 
 .logoecadastro.active .cadastro{
-    transition-delay: .7s;
+    transition-delay: .0s;
     transform: translateX(0);
+    display: block;
 }
 
 
@@ -119,10 +128,13 @@ header .logo .dot {
     vertical-align: middle;
 }
 
+.cadastro h2{
+    font-size: 50px;
+}
+
 .input-box {
     position: relative;
     width: 320px;
-    
     margin: 25px 0;;
 }
 
@@ -154,6 +166,8 @@ header .logo .dot {
     justify-content: space-between;
     
 }
+
+
 
 .esqueceusenha a, label{
     color: gray;
