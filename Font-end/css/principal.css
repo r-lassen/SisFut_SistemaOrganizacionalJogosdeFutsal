@@ -1,0 +1,178 @@
+
+boby{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 80px;
+}
+
+/*cabeçalho*/
+header {
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    height: 80px;
+    top: 0;
+    left: 0;
+  
+}
+
+header .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header .logo {
+    display: inline-block;
+    font-size: 35px;
+}
+
+header .logo .dot {
+    background-color: #5CC6BA;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+}
+
+header nav {
+    display: inline-block;
+    
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline-block;
+    
+}
+
+header nav ul li a {
+    color: #3e3e3e;
+    font-size: 15px;
+    letter-spacing:  0.37px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+header nav ul li:last-of-type a {
+    margin-right: 0;
+}
+/*fimcabeçalho*/
+
+.conteiner {
+    max-width: 1180px;
+    margin: auto;
+    padding: 0 16px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+section.jogos{
+    padding-top: 80px;
+}
+
+section.jogos h2 {
+    text-align:center;
+    font-size: 35px;
+    letter-spacing: 0.85px;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 0px 0 5px 0;
+}
+
+section.jogos hr {
+    border: none;
+    border-top: 4px solid #5CC6BA;
+    width:100px;
+    
+    margin-bottom: 30px;
+}
+
+section.jogos.sliders{
+    margin-top: 76px;
+
+}
+
+section.jogos .conteiner {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8px;
+}
+
+section .slide{
+    border-radius: 8px;
+    border: 1px solid #DDD;
+    width: 33%;
+    text-align: center;
+    padding-bottom: 10px;
+    margin: 0 8px;
+}
+
+section .info .icon{
+    
+    display: block;
+    justify-items: center;
+    left: 16px;
+    font-size: 100px;
+    line-height: 57px;
+    color:#5CC6BA;
+    margin-bottom: 30px;
+    
+}
+
+section .info button{
+    height: 35px;
+    width: 219.5px;
+    font-size: 13px;
+    border-radius: 200px;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #5CC6BA;
+    border: 1px solid #5CC6BA;
+    margin-bottom: 5px ;
+}
+
+section .info .titulo{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #3e3e3e;
+  
+}
+
+
+/*Rodape*/
+footer{
+    text-align: center;
+    
+}
+
+footer .rodape{
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+
+    color: #3e3e3e;
+    width: 100%;
+    height: 70px;    
+    text-align: center;
+    line-height: 70px;
+    
+}
+
+.rodape .dot {
+    background-color:#5CC6BA;
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+   
+}
+/*Fim Rodape*/
