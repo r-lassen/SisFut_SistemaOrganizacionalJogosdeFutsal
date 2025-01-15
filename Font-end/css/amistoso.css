@@ -96,7 +96,7 @@ section.titulo hr {
 /*titilo*/
 
 /*AMISTOSO*/
-.abrirsolicitar{
+.mudar{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -118,11 +118,11 @@ section.titulo hr {
     padding: 10px;
 }
 
-.abrirsolicitar form{
+.mudar form{
     width: 620px;
 }
 
-.abrirsolicitar form h3{
+.mudar form h3{
     color: #5CC6BA;
     font-size: 30px;
     margin-top: 0;
@@ -132,25 +132,25 @@ section.titulo hr {
 }
 
 /*transacion*/
-.abrirsolicitar.active {
+.mudar.active {
     height: 560px;
 }
 
-.abrirsolicitar .form-abrir {
+.mudar .form-abrir {
     width: 100%;
     padding: 40px;
     transition: .1s ease-in-out;
     
 }
 
-.abrirsolicitar.active .form-abrir {
+.mudar.active .form-abrir {
     transition-delay: 0s;
     transform: trabslateX(-400px);
     
 }
 
 
-.abrirsolicitar .form-solicitar{
+.mudar .form-solicitar{
     position: absolute;
     margin-top: 15px;
     transform: translateX(-400px);
@@ -158,7 +158,7 @@ section.titulo hr {
     display: none;
 }
 
-.abrirsolicitar.active .form-solicitar{
+.mudar.active .form-solicitar{
     transition-delay: .0s;
     transform: translateX(0);
     display: block;

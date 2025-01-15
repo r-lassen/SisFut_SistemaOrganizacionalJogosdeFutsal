@@ -60,7 +60,7 @@ header .logo .dot {
 }
 /*fimcabeçalho*/
 /*wrapper*/
-.logoecadastro{
+.mudar{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -80,25 +80,25 @@ header .logo .dot {
     background-color: #fff;
 }
 
-.logoecadastro.active {
+.mudar.active {
     height: 520px;
 }
 
-.logoecadastro .form-login {
+.mudar .form-login {
     width: 100%;
     padding: 40px;
     transition: .1s ease-in-out;
     
 }
 
-.logoecadastro.active .form-login {
+.mudar.active .form-login {
     transition-delay: 0s;
     transform: trabslateX(-400px);
     
 }
 
 
-.logoecadastro .cadastro{
+.mudar .cadastro{
     position: absolute;
     margin-top: 15px;
     transform: translateX(-400px);
@@ -106,7 +106,7 @@ header .logo .dot {
     display: none;
 }
 
-.logoecadastro.active .cadastro{
+.mudar.active .cadastro{
     transition-delay: .0s;
     transform: translateX(0);
     display: block;
