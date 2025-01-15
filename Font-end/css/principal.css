@@ -72,7 +72,7 @@ header nav ul li:last-of-type a {
     text-align: center;
 
 }
-
+/*titilo*/
 section.jogos{
     padding-top: 80px;
 }
@@ -93,7 +93,9 @@ section.jogos hr {
     
     margin-bottom: 30px;
 }
+/*titilo*/
 
+/*principal*/
 section.jogos.sliders{
     margin-top: 76px;
 
@@ -138,12 +140,18 @@ section .info button{
     margin-bottom: 5px ;
 }
 
+section .info button a{
+    color:#5CC6BA;
+    text-decoration: none;
+}
+
 section .info .titulo{
     font-size: 20px;
     text-transform: uppercase;
     color: #3e3e3e;
   
 }
+/*principal*/
 
 
 /*Rodape*/

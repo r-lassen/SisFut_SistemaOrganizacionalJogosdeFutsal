@@ -8,3 +8,15 @@ function loginActive() {
     logoecadastro.classList.toggle('active');
 };
 
+
+
+const abrirsolicitar = document.querySelector('.abrirsolicitar');
+
+function cadastroActive() {
+    abrirsolicitar.classList.toggle('active');
+};
+
+function loginActive() {
+    abrirsolicitar.classList.toggle('active');
+};
+
