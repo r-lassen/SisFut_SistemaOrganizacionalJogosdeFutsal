@@ -26,8 +26,6 @@ boby{
 }
 
 .conteiner {
-    max-width: 1180px;
-    margin: auto;
     padding: 0px;
     justify-content: center;
     text-align: center;
@@ -191,3 +189,49 @@ footer .rodape{
     border-radius: 6px;
 }
 /*Fim Rodape*/
+
+/* ****************************************  CSS MEDIA QUERIES  ******************************************/
+
+/* Start of Design for Small Desktops */
+
+
+/* Início do Design para Tablets max-width: 960px */
+/* fIM do Design para Tablets */
+
+/* Início do Design para Celulares */
+@media screen and (max-width: 576px) {
+    .mudar{
+        box-shadow: none;
+    }
+
+    .conteiner {
+        padding: 25px;
+    }
+
+    .logo {
+        margin-bottom: 25px;
+    }
+    
+    .cadastro p{
+        font-size: 18px;
+    }
+    
+    .input-box input{
+        font-size: 15px;
+        border-radius: 40px;
+        padding: 0 45px 0 45px;
+    }
+    
+    .esqueceusenha a{
+        margin-bottom: 20px;
+        justify-content: right;
+        font-size: 15px;
+    }
+
+    /*Rodape*/
+    
+    footer .rodape{
+        font-size: 13px;   
+    }
+}
+/* FIM do Design para Celulares */
